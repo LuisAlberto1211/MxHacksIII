@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C7192031BC084FB00863B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7192021BC084FB00863B99 /* AppDelegate.swift */; };
+		9C7192051BC084FB00863B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7192041BC084FB00863B99 /* ViewController.swift */; };
+		9C7192081BC084FB00863B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7192061BC084FB00863B99 /* Main.storyboard */; };
+		9C71920A1BC084FB00863B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7192091BC084FB00863B99 /* Assets.xcassets */; };
+		9C71920D1BC084FB00863B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C71920B1BC084FB00863B99 /* LaunchScreen.storyboard */; };
+		9C7192181BC084FC00863B99 /* WippliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7192171BC084FC00863B99 /* WippliTests.swift */; };
+		9C7192231BC084FC00863B99 /* WippliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7192221BC084FC00863B99 /* WippliUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C7192141BC084FC00863B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C7191F71BC084FB00863B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C7191FE1BC084FB00863B99;
+			remoteInfo = Wippli;
+		};
+		9C71921F1BC084FC00863B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C7191F71BC084FB00863B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C7191FE1BC084FB00863B99;
+			remoteInfo = Wippli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C7191FF1BC084FB00863B99 /* Wippli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wippli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7192021BC084FB00863B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C7192041BC084FB00863B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C7192071BC084FB00863B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C7192091BC084FB00863B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C71920C1BC084FB00863B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C71920E1BC084FB00863B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7192131BC084FC00863B99 /* WippliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WippliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7192171BC084FC00863B99 /* WippliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WippliTests.swift; sourceTree = "<group>"; };
+		9C7192191BC084FC00863B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C71921E1BC084FC00863B99 /* WippliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WippliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7192221BC084FC00863B99 /* WippliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WippliUITests.swift; sourceTree = "<group>"; };
+		9C7192241BC084FC00863B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C7191FC1BC084FB00863B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7192101BC084FC00863B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C71921B1BC084FC00863B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C7191F61BC084FA00863B99 = {
+			isa = PBXGroup;
+			children = (
+				9C7192011BC084FB00863B99 /* Wippli */,
+				9C7192161BC084FC00863B99 /* WippliTests */,
+				9C7192211BC084FC00863B99 /* WippliUITests */,
+				9C7192001BC084FB00863B99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C7192001BC084FB00863B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C7191FF1BC084FB00863B99 /* Wippli.app */,
+				9C7192131BC084FC00863B99 /* WippliTests.xctest */,
+				9C71921E1BC084FC00863B99 /* WippliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C7192011BC084FB00863B99 /* Wippli */ = {
+			isa = PBXGroup;
+			children = (
+				9C7192021BC084FB00863B99 /* AppDelegate.swift */,
+				9C7192041BC084FB00863B99 /* ViewController.swift */,
+				9C7192061BC084FB00863B99 /* Main.storyboard */,
+				9C7192091BC084FB00863B99 /* Assets.xcassets */,
+				9C71920B1BC084FB00863B99 /* LaunchScreen.storyboard */,
+				9C71920E1BC084FB00863B99 /* Info.plist */,
+			);
+			path = Wippli;
+			sourceTree = "<group>";
+		};
+		9C7192161BC084FC00863B99 /* WippliTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C7192171BC084FC00863B99 /* WippliTests.swift */,
+				9C7192191BC084FC00863B99 /* Info.plist */,
+			);
+			path = WippliTests;
+			sourceTree = "<group>";
+		};
+		9C7192211BC084FC00863B99 /* WippliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C7192221BC084FC00863B99 /* WippliUITests.swift */,
+				9C7192241BC084FC00863B99 /* Info.plist */,
+			);
+			path = WippliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C7191FE1BC084FB00863B99 /* Wippli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7192271BC084FC00863B99 /* Build configuration list for PBXNativeTarget "Wippli" */;
+			buildPhases = (
+				9C7191FB1BC084FB00863B99 /* Sources */,
+				9C7191FC1BC084FB00863B99 /* Frameworks */,
+				9C7191FD1BC084FB00863B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wippli;
+			productName = Wippli;
+			productReference = 9C7191FF1BC084FB00863B99 /* Wippli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C7192121BC084FC00863B99 /* WippliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C71922A1BC084FC00863B99 /* Build configuration list for PBXNativeTarget "WippliTests" */;
+			buildPhases = (
+				9C71920F1BC084FC00863B99 /* Sources */,
+				9C7192101BC084FC00863B99 /* Frameworks */,
+				9C7192111BC084FC00863B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C7192151BC084FC00863B99 /* PBXTargetDependency */,
+			);
+			name = WippliTests;
+			productName = WippliTests;
+			productReference = 9C7192131BC084FC00863B99 /* WippliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C71921D1BC084FC00863B99 /* WippliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C71922D1BC084FC00863B99 /* Build configuration list for PBXNativeTarget "WippliUITests" */;
+			buildPhases = (
+				9C71921A1BC084FC00863B99 /* Sources */,
+				9C71921B1BC084FC00863B99 /* Frameworks */,
+				9C71921C1BC084FC00863B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C7192201BC084FC00863B99 /* PBXTargetDependency */,
+			);
+			name = WippliUITests;
+			productName = WippliUITests;
+			productReference = 9C71921E1BC084FC00863B99 /* WippliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C7191F71BC084FB00863B99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Luis Alberto Ortega";
+				TargetAttributes = {
+					9C7191FE1BC084FB00863B99 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9C7192121BC084FC00863B99 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9C7191FE1BC084FB00863B99;
+					};
+					9C71921D1BC084FC00863B99 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9C7191FE1BC084FB00863B99;
+					};
+				};
+			};
+			buildConfigurationList = 9C7191FA1BC084FB00863B99 /* Build configuration list for PBXProject "Wippli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C7191F61BC084FA00863B99;
+			productRefGroup = 9C7192001BC084FB00863B99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C7191FE1BC084FB00863B99 /* Wippli */,
+				9C7192121BC084FC00863B99 /* WippliTests */,
+				9C71921D1BC084FC00863B99 /* WippliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C7191FD1BC084FB00863B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C71920D1BC084FB00863B99 /* LaunchScreen.storyboard in Resources */,
+				9C71920A1BC084FB00863B99 /* Assets.xcassets in Resources */,
+				9C7192081BC084FB00863B99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7192111BC084FC00863B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C71921C1BC084FC00863B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C7191FB1BC084FB00863B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7192051BC084FB00863B99 /* ViewController.swift in Sources */,
+				9C7192031BC084FB00863B99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C71920F1BC084FC00863B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7192181BC084FC00863B99 /* WippliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C71921A1BC084FC00863B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7192231BC084FC00863B99 /* WippliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C7192151BC084FC00863B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C7191FE1BC084FB00863B99 /* Wippli */;
+			targetProxy = 9C7192141BC084FC00863B99 /* PBXContainerItemProxy */;
+		};
+		9C7192201BC084FC00863B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C7191FE1BC084FB00863B99 /* Wippli */;
+			targetProxy = 9C71921F1BC084FC00863B99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C7192061BC084FB00863B99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C7192071BC084FB00863B99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C71920B1BC084FB00863B99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C71920C1BC084FB00863B99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C7192251BC084FC00863B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C7192261BC084FC00863B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C7192281BC084FC00863B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wippli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrtegaLuisAlberto.Wippli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C7192291BC084FC00863B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wippli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrtegaLuisAlberto.Wippli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C71922B1BC084FC00863B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WippliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrtegaLuisAlberto.WippliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wippli.app/Wippli";
+			};
+			name = Debug;
+		};
+		9C71922C1BC084FC00863B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WippliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrtegaLuisAlberto.WippliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wippli.app/Wippli";
+			};
+			name = Release;
+		};
+		9C71922E1BC084FC00863B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WippliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrtegaLuisAlberto.WippliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wippli;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9C71922F1BC084FC00863B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WippliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrtegaLuisAlberto.WippliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wippli;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C7191FA1BC084FB00863B99 /* Build configuration list for PBXProject "Wippli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7192251BC084FC00863B99 /* Debug */,
+				9C7192261BC084FC00863B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7192271BC084FC00863B99 /* Build configuration list for PBXNativeTarget "Wippli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7192281BC084FC00863B99 /* Debug */,
+				9C7192291BC084FC00863B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C71922A1BC084FC00863B99 /* Build configuration list for PBXNativeTarget "WippliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C71922B1BC084FC00863B99 /* Debug */,
+				9C71922C1BC084FC00863B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C71922D1BC084FC00863B99 /* Build configuration list for PBXNativeTarget "WippliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C71922E1BC084FC00863B99 /* Debug */,
+				9C71922F1BC084FC00863B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C7191F71BC084FB00863B99 /* Project object */;
+}
