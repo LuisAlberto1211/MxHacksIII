@@ -14,6 +14,8 @@
 		9C71920D1BC084FB00863B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C71920B1BC084FB00863B99 /* LaunchScreen.storyboard */; };
 		9C7192181BC084FC00863B99 /* WippliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7192171BC084FC00863B99 /* WippliTests.swift */; };
 		9C7192231BC084FC00863B99 /* WippliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7192221BC084FC00863B99 /* WippliUITests.swift */; };
+		9C7192321BC0875E00863B99 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7192311BC0875E00863B99 /* Spotify.framework */; settings = {ASSET_TAGS = (); }; };
+		9C7192341BC0893500863B99 /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C7192331BC0893500863B99 /* Credentials.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9C71921E1BC084FC00863B99 /* WippliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WippliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7192221BC084FC00863B99 /* WippliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WippliUITests.swift; sourceTree = "<group>"; };
 		9C7192241BC084FC00863B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7192311BC0875E00863B99 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		9C7192331BC0893500863B99 /* Credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7192321BC0875E00863B99 /* Spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		9C7191F61BC084FA00863B99 = {
 			isa = PBXGroup;
 			children = (
+				9C7192301BC0874B00863B99 /* Frameworks */,
 				9C7192011BC084FB00863B99 /* Wippli */,
 				9C7192161BC084FC00863B99 /* WippliTests */,
 				9C7192211BC084FC00863B99 /* WippliUITests */,
@@ -123,6 +129,15 @@
 				9C7192241BC084FC00863B99 /* Info.plist */,
 			);
 			path = WippliUITests;
+			sourceTree = "<group>";
+		};
+		9C7192301BC0874B00863B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C7192311BC0875E00863B99 /* Spotify.framework */,
+				9C7192331BC0893500863B99 /* Credentials.plist */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C71920D1BC084FB00863B99 /* LaunchScreen.storyboard in Resources */,
+				9C7192341BC0893500863B99 /* Credentials.plist in Resources */,
 				9C71920A1BC084FB00863B99 /* Assets.xcassets in Resources */,
 				9C7192081BC084FB00863B99 /* Main.storyboard in Resources */,
 			);
@@ -398,6 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Wippli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = OrtegaLuisAlberto.Wippli;
@@ -409,6 +429,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Wippli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = OrtegaLuisAlberto.Wippli;
